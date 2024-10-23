@@ -6,6 +6,7 @@ from .models import User, Post, followers
 from .extensions import db
 from flask_jwt_extended import create_access_token, create_refresh_token, jwt_required, unset_jwt_cookies
 from .decorators import login_required
+from flask_cors import cross_origin
 
 main = Blueprint('main', __name__)
 

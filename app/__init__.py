@@ -4,6 +4,7 @@
 from flask import Flask
 from .extensions import db, jwt, cors, migrate
 from .config import Config
+from flask_cors import CORS
 
 
 def create_app():
