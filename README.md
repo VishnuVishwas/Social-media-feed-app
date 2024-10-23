@@ -21,14 +21,5 @@ This project is a simple social media feed API built with Flask. Users can regis
 
 ## Getting Started
 
-### Prerequisites
-
 - Python 3.12 or higher
 - Docker
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/social_media_feed.git
-   cd social_media_feed
